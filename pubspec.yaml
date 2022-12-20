@@ -1,29 +1,42 @@
 name: yt_clone
 description: A new Flutter project.
-publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+publish_to: 'none'
 
 version: 1.0.0+1
 
 environment:
-  sdk: '>=2.18.2 <3.0.0'
+  sdk: '>=2.12.0 <3.0.0'
 
 dependencies:
   flutter:
     sdk: flutter
 
-  cupertino_icons: ^1.0.2
   flutter_riverpod: ^0.13.1+1
   miniplayer: ^1.0.0+2
+  share: ^2.0.4
+  sliver_tools: ^0.2.8
   timeago: ^3.0.2
 
 dev_dependencies:
   flutter_test:
-    sdk: flutter  
-  flutter_lints: ^2.0.0
+    sdk: flutter
 
 flutter:
-
   uses-material-design: true
 
   assets:
     - assets/yt_logo_dark.png
+    - assets/thumbnail_images/thumbnail1.png
+    - assets/thumbnail_images/thumbnail2.png
+    - assets/thumbnail_images/thumbnail3.png
+    - images/music_bar.gif
+    - images/smiley.jpg
+    - images/waterFall.gif
+    - images/universe.gif
+    - images/profile_pic2.jpg
+    - images/minions.gif
+    - images/cat.jpg
+    - images/rubiksCube.gif
+    - images/woman1.png
+    - images/PP.jpg
